@@ -1,6 +1,6 @@
-Backtracking refers to the type og algorithm which tries to exhaut or find all the possible answers using recursion.
+- Backtracking refers to the type og algorithm which tries to exhaut or find all the possible answers using recursion.
 
-Basic Algorithm :
+- Basic Algorithm :
 ```
 bool solve(configuration conf) :
     if(no more choices) : //Base case
@@ -16,6 +16,13 @@ bool solve(configuration conf) :
             
      return false //no more choices to explore and we exhauted all the possible cases.
 ```
-        
+
+- Abstract away the details of managing the configuration 
+    - what choices are available
+    - making  choices
+    - checing for success
+    - looking for base cases
+    - nested function which are required(helper functions so that recusion functions can be as clean as possible)
+    
     
      
